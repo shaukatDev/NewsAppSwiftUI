@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+
 @main
 struct NewsAppSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NewsFeedView()
         }
     }
 }
